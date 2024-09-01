@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. Part of Offensive Security."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="pxcs portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. Part of Offensive Security.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="pxcs portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. Part of Offensive Security.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="pxcs portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. Part of Offensive Security.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>pxcs portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Profile</a></li>
+          <li class="nav-item"><a href="#work">Certifications</a></li>
+          <li class="nav-item"><a href="#blog">Activity</a></li>
+          <li class="nav-item"><a href="#skills">Software</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Sulaiman Aziz</span>
+            <span>Offensive Security</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            Security Engineer <b>|</b> Offensive Security <b>|</b> Penetration Tester Specialist <b>|</b> Cyber Security <b>|</b> 
+            Sr. Bug Hunter <b>|</b> Sr. iOS Researcher <b>| Ex Telkomsel | Ex MyOrbit | Ex DBSBank</b>
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Contact Me</a>
+            <a href="#work" class="btn btn-secondary">See Certifications</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Experiences</h2>
+          <div class="logos">
+            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/sec.png"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/bgc.png"
+                alt="Golden grid"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/thom.png"
+                alt="Theia"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/github.png"
+                alt="General motors"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/singtel.png"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/shope.png"
+                alt="Shopify"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/as.png"
+                alt="Agency elevation"
+                class="logo hide to-top"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/kali.png"
+                alt="Ron jones"
+                class="logo"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/telkom.png"
+                alt="Mighty furniture's"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/dbs.png"
+                alt="Bulls eye"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/telk.png"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/spacex.png"
+                alt="Fastlane"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Certifications</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Security Certifications</h3><br>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  CRTM | CRTP | CRTE | PACES | CAWASP | PenTest+ | CPT | 
+                  eWPTXv2 | eCPPTv2 | eCPTXv2 | eCXD | CCSAS | CBBH | CPTS 
+                  | CDSA | CWEE | Dante | Offshore | Cybernetics | OSCP | OSDA
+                  KLCP | OSWP | OSEP | OSED | OSWE | OSCE3 | OSMR | OSEE 
+                  | GXPN | CᴵEH (Master) | LᴵPT (Master) | CᴵPENT
+                </p><br>
+                <!-- Add technologies you used to build the project -->
+                <h3 class="h3">Recognize By</h3><br>
+                <ol class="work-technologies">
+                  <li>eLearn Security</li>
+                  <li>Offensive Security</li>
+                  <li>Cisco</li>
+                  <li>HackTheBox Academy</li>
+                  <li>HackTheBox Labs</li>
+                  <li>Altered Security</li>
+                  <li>CompTIA</li>
+                  <li>GIAC</li>
+                  <li>EC-Council</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="https://github.com/pxcs" target="_blank" rel="noopener" class="link"
+                    >Explore My Certifications</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/pxcs"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/1.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Senior SOC Analyst</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">Knowledge Domains in <b>Blue</b> Teamer</p>
+                <ol class="work-technologies">
+                  <li>SOC Processes & Methodologies</li>
+                  <li>SIEM Operations (ELK/Splunk)</li>
+                  <li>Tactical Analytics</li>
+                  <li>Advanced Log Analysis</li>
+                  <li>Threat Hunting</li>
+                  <li>Active Directory Attack Analysis</li>
+                  <li>Network Traffic Analysis (IDS/IPS)</li>
+                  <li>Malware Analysis</li>
+                  <li>Threat Analysis</li>
+                  <li>CrowdStrike Operations</li>
+                  <li>End Points Analytics</li>
+                  <li>Reverse Engineering</li>
+                  <li>DFIR Operations</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="http://github.com/pxcs"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/def.png"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Senior Penetration Tester Specialist</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Knowledge Domains in <b>Red</b> Teamer
+                </p>
+                <ol class="work-technologies">
+                  <li>Penetration Testing processes</li>
+                  <li>Gathering & reconnaissance Techniques</li>
+                  <li>Web Application Penetration Testing</li>
+                  <li>Manual & automated Exploitation</li>
+                  <li>Vulnerability assessment</li>
+                  <li>Pivoting & Lateral Movement</li>
+                  <li>Post Exploitation enumeration</li>
+                  <li>Windows & Linux Privilege escalation</li>
+                  <li>Vulnerability &Risk reporting</li>
+                  <li>Advanced Black box PenTesting</li>
+                  <li>White box Penetration Testing</li>
+                  <li>Large code base Security reviews</li>
+                  <li>Web exploit development</li>
+                  <li>Advanced Injections in Web</li>
+                  <li>Attacking advanced Authentication</li>
+                  <li>Attacking HTTP & HTTPs requests</li>
+                  <li>Performing blind web attacks</li>
+                  <li>Bypassing advanced security filters</li>
+                  <li>Performing deserialization Attacks</li>
+                  <li>Using modern web Exploitation</li>
+                  <li>iOS and Android Attacks</li>
+                  <li>Master Injection Attacks</li>
+                  <li>Advanced Malware Development</li>
+                  <li>Senior Kerberos Attacks</li>
+                  <li>Advanced LDAP Abuser</li>
+                  <li>Senior Large Osint</li>
+                  <li>Senior Corporate Osint</li>
+                  <li>Advanced Backdoor Attacks</li>
+                  <li>Attacking Active Directory</li>
+                  <li>Windows and Linux Attacks</li>
+                  <li>Senior AS-REP Roasting</li>
+                  <li>MacOS Exploit Development</li>
+                  <li>iCloud Sessions Attacks</li>
+                  <li>Authentications Hijacking</li>
+                  <li>Advanced Sessions Hijacking</li>
+                  <li>Advanced XSS and CSRF Attacks</li>
+                  <li>Web Protocol Abuser</li>
+                  <li>Active Directory BloodHound</li>
+                  <li>Senior ADCS Attacks</li>
+                  <li>Advanced NTLM Relay Attacks</li>
+                  <li>Senior Trust Attacks</li>
+                  <li>Proxychains Supply & Attacks</li>
+                  <li>Binary Fuzzing & Attacks</li>
+                  <li>Bug Bounty Hunting processes</li>
+                  <li>Web application dynamic analysis</li>
+                  <li>Information gathering techniques</li>
+                  <li>API vulnerability identification</li>
+                  <li>Manual and Automated Exploitation</li>
+                  <li>Vulnerability Reporting</li>
+                  <li>Advanced Spyware Development</li>
+                  <li>Corporate Network Attacks</li>
+                  <li>Advanced iOS Sandbox Attacks</li>
+                  <li>Advanced MacOS Kernel Attacks</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/pxcs"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/2.png"
+                  alt="contribute dev"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- I write blog posts on dev.to at https://dev.to/pxcs. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">Articles and Notes</h2>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                  Active Directory Protocol Advanced Kerberos Attacks
+                  </h3>
+                  <p class="article-text">
+                    Kerberoasting is a post <b>exploitation</b> attack technique that attempts 
+                    to obtain a passwords of an Active Directory account that has a Service Principal Name.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://www.crowdstrike.com/cybersecurity-101/kerberoasting/" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img src="./assets/images/heart-outline.svg" alt="heart" />
+                    7.1 K
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/kerberos.png"
+                  alt="MacBook Pro"
+                  loading="lazy"
+                />
+              </picture>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">iOS and Android Spyware. Pegasus?</h3>
+                  <p class="article-text">
+                    The iPhone maker has detected spyware attacks against people in more 
+                    than 150 countries. Knowing if your device is infected?
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://www.wired.com/story/apple-iphone-spyware-101/" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    2.2 K
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">
+                    The WannaCry Ransomware Attack
+                  </h3>
+                  <p class="article-text">
+                    The WannaCry ransomware attack was a worldwide Cyber Attack.
+                    The Hackers demanded a ransom
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://en.wikipedia.org/wiki/WannaCry_ransomware_attack" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    561
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Advanced Query Injection Attacks</h3>
+                  <div class="article-text">
+                    Injection attacks occur when attackers exploit vulnerabilities 
+                    in an application to send malicious code into a system. 
+                  </div>
+                </div>
+                <div class="article-info">
+                  <a href="https://dev.to/pxcs" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      loading="lazy"
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                    />
+                    1.9 K
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/kali.png" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/cme.svg" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+                 <img src="assets/images/skills/bh.svg" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+                 <img src="assets/images/skills/john.svg" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+                 <img src="assets/images/skills/bp.svg" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                 <img src="assets/images/skills/nmap.svg" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+                 <img src="assets/images/skills/parrot.png" alt="Graph Ql" class="skills-img" loading="lazy" title="Graph QL">
+                 <img src="assets/images/skills/c.png" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="assets/images/skills/cpp.png" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+      <section>
+        <h2 class="h2">Exam Experiences</h2>
+        <div class="container">
+          <ol class="testimonials">
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Passing the <b>OSEE</b> feels like conquering a mountain intense, exhausting, but ultimately rewarding. 
+                Its the pinnacle of pentesting achievement.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/OSEE.webp"
+                  alt="Rich Harris"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">OSEE</h3>
+                  <p class="testimonial-author-job">Offensive Security</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Passing the <b>OSMR</b> feels like mastering the art of reverse engineering in macOS. It's a meticulous, brain bending 
+                journey that hones your skills in macOS Pentesting.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/OSMR.png"
+                  alt="Andrew Mead"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">
+                    OSMR
+                  </h3>
+                  <p class="testimonial-author-job">Offensive Security
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Its a rigorous, <b>CPTS</b> hands on experience that refines your pentesting skills, making you sharper, 
+                more strategic, and ready to tackle real world challenges.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/CPTS.webp"
+                  alt="Brian Hirsh"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">CPTS</h3>
+                  <p class="testimonial-author-job">HackTheBox Academy</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                <b>CWEE</b> from HackTheBox Academy is like decoding the hidden layers of web applications. Its a deep dive into web exploitation, 
+                equipping you with advanced skills to uncover vulnerabilities.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/CWEE.webp"
+                  alt="Adam Argalye"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">CWEE</h3>
+                  <p class="testimonial-author-job">HackTheBox Academy</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Passing the Certified Red Team Professional or <b>CRTP</b> from Altered Security feels like gaining X-ray vision into Active Directory environments.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/CRTP.png"
+                  alt="Val Head"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">CRTP</h3>
+                  <p class="testimonial-author-job">Altered Security</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                The <b>eCPPTv2</b> from INE Security feels like mastering the full spectrum of pentesting.
+                I've learn a lot in  networks exploitation to post exploitation.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/ECPPT.png"
+                  alt="Gary Simon"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">eCPPTv2</h3>
+                  <p class="testimonial-author-job">INE Security</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a Penetration Tester specializing in Web applications, Mobile security, Online Services, and Active Directory.
+                I have a proven track record of conducting tests for high profile clients.
+              </p>
+              <p class="contact-text">
+                I'm also do a physical Penetration Testing on a Corporate Security system and else.<br><br>
+                pxmxx3csz@outlook.com<br>
+              </p>
+              <!-- Replace src with your signatures and name -->
+              <img
+                src="assets/images/skills/kalli.png"
+                alt="Syed Mohsin"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/pxcs" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="BugCrowd" href="https://bugcrowd.com/pxcs" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/bgcs.svg"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="s.id" href="https://s.id/pxcsx/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/sidd.png"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="X.com" href="https://x.com/pxsceet" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/xs.webp"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2022</span> - Thanks for Coming <a target="_blank" rel="noopener" href="https://github.com/pxcs">Sulaiman</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
