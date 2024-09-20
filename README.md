@@ -1,120 +1,67 @@
 # byt3n33dl3
 
-Just a **Yapping** Javascript
+```c
+/*
+ * README.md
+ *
+ * Author: byt3n33dl3 (Sulaiman A.)
+ * File Purpose: Introduction of Ethical Hacker
+ * Language: Markdown (but made to look like C)
+ * 
+ * Dependencies: 
+ *   - Ethical mindset
+ *   - Knowledge of security tools & methodologies
+ *   - Curiosity to explore vulnerabilities for the good
+ */
 
-```js
-const nav = document.querySelector(".nav");
-const navMenu = document.querySelector(".nav-items");
-const btnToggleNav = document.querySelector(".menu-btn");
-const workEls = document.querySelectorAll(".work-box");
-const workImgs = document.querySelectorAll(".work-img");
-const mainEl = document.querySelector("main");
-const yearEl = document.querySelector(".footer-text span");
+// Includes
+#include <hacking.h>
+#include <cybersecurity.h>
+#include <open_source_contributions.h>
 
-const toggleNav = () => {
-  nav.classList.toggle("hidden");
+// Definitions
+#define NAME        "Sulaiman"
+#define ROLE        "Ethical Hacker"
+#define SPECIALTY   "Penetration Testing | Security Engineer | Cyber Security"
+#define MISSION     "Making the digital world a safer place, Just Kidding!"
+#define CONTACT     "byt3n33dl3@proton.me"
 
-  // Prevent screen from scrolling when menu is opened
-  document.body.classList.toggle("lock-screen");
-
-  if (nav.classList.contains("hidden")) {
-    btnToggleNav.textContent = "menu";
-  } else {
-    // When menu is opened after transition change text respectively
-    setTimeout(() => {
-      btnToggleNav.textContent = "close";
-    }, 475);
-  }
-};
-
-btnToggleNav.addEventListener("click", toggleNav);
-
-navMenu.addEventListener("click", (e) => {
-  if (e.target.localName === "a") {
-    toggleNav();
-  }
-});
-
-document.body.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && !nav.classList.contains("hidden")) {
-    toggleNav();
-  }
-});
-
-// Animating work instances on scroll
-
-workImgs.forEach((workImg) => workImg.classList.add("transform"));
-
-let observer = new IntersectionObserver(
-  (entries) => {
-    const [entry] = entries;
-    const [textbox, picture] = Array.from(entry.target.children);
-    if (entry.isIntersecting) {
-      picture.classList.remove("transform");
-      Array.from(textbox.children).forEach(
-        (el) => (el.style.animationPlayState = "running")
-      );
+// Main Function
+int main(void) {
+    // Personal Introduction
+    printf("Hello, World!\n");
+    printf("I'm an Ethical Hacker\n", NAME);
+    printf("I specialize in Red Teaming, focusing on uncovering and fixing vulnerabilities in networks and applications.\n", SPECIALTY);
+    
+    // Hacking Philosophy
+    if (ethical == true) {
+        printf("Ethics is the key! As a hacker, my mission is to safeguard systems and protect privacy.\n");
+        printf("I believe in responsible disclosure, ensuring that vulnerabilities are fixed before being exploited.\n");
+    } else {
+        printf("Warning: Unethical behavior detected!\n");
+        return -1;
     }
-  },
-  { threshold: 0.3 }
-);
 
-workEls.forEach((workEl) => {
-  observer.observe(workEl);
-});
+    // Key Projects
+    printf("Explore my repositories:\n");
+    printf("- Open Source Security Tools\n");
+    printf("- Vulnerability Analysis Scripts\n");
+    printf("- CTF Challenges and Writeups\n");
+    printf("- s.id/byt3n33dl3\n");
 
-// Toggle theme and store user preferred theme for future
+    // Contact Info
+    printf("Feel free to reach out: byt3n33dl3@proton.me %s\n", CONTACT);
 
-const switchThemeEl = document.querySelector('input[type="checkbox"]');
-const storedTheme = localStorage.getItem("theme");
+    // Exit gracefully
+    return 0;
+}
 
-switchThemeEl.checked = storedTheme === "dark" || storedTheme === null;
+/* 
+ * Additional Features: 
+ * - Always keeping up with the latest security trends and threats
+ * - Passionate about sharing knowledge with the community
+ * - Ready to collaborate with other ethical hackers and developers
+ */
 
-switchThemeEl.addEventListener("click", () => {
-  const isChecked = switchThemeEl.checked;
-
-  if (!isChecked) {
-    document.body.classList.remove("dark");
-    document.body.classList.add("light");
-    localStorage.setItem("theme", "light");
-    switchThemeEl.checked = false;
-  } else {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
-    localStorage.setItem("theme", "dark");
-  }
-});
-
-// Trap the tab when menu is opened
-
-const lastFocusedEl = document.querySelector('a[data-focused="last-focused"]');
-
-document.body.addEventListener("keydown", (e) => {
-  if (e.key === "Tab" && document.activeElement === lastFocusedEl) {
-    e.preventDefault();
-    btnToggleNav.focus();
-  }
-});
-
-// Rotating logos animation
-
-const logosWrappers = document.querySelectorAll(".logo-group");
-
-const sleep = (number) => new Promise((res) => setTimeout(res, number));
-
-logosWrappers.forEach(async (logoWrapper, i) => {
-  const logos = Array.from(logoWrapper.children);
-  await sleep(1400 * i);
-  setInterval(() => {
-    let temp = logos[0];
-    logos[0] = logos[1];
-    logos[1] = logos[2];
-    logos[2] = temp;
-    logos[0].classList.add("hide", "to-top");
-    logos[1].classList.remove("hide", "to-top", "to-bottom");
-    logos[2].classList.add("hide", "to-bottom");
-  }, 5600);
-});
-
-yearEl.textContent = new Date().getFullYear();
+// End of README.md
 ```
