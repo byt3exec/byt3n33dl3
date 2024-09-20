@@ -20,7 +20,7 @@
 #include <open_source_contributions.h>
 
 // Definitions
-#define NAME        "Sulaiman"
+#define NAME        "byt3n33dl3 (Sulaiman A.)"
 #define ROLE        "Ethical Hacker"
 #define SPECIALTY   "Penetration Testing | Security Engineer | Cyber Security"
 #define MISSION     "Making the digital world a safer place, Just Kidding!"
