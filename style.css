@@ -2,6 +2,47 @@
 /* ----- Basic Setup -----*/
 /* --------------------------------- */
 
+.certificate-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.certificates {
+  display: inline-block;
+  animation: slide-left 30s linear infinite;
+}
+
+.certificate-item {
+  display: inline-block;
+  width: 230px; /* Adjust width to fit your layout */
+  height: 185px; /* Set a consistent height */
+  margin-right: 20px;
+  background-color: rgb(24, 24, 24); /* Background color for contrast */
+  border-radius: 10px; /* Smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Smooth shadow effect */
+  border: 1px solid #cfcfcf; /* Smooth outline */
+  overflow: hidden; /* Ensures the image stays within the container */
+  text-align: center;
+  padding: 10px;
+}
+
+.certificate-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Make sure all images fit well inside the grid */
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @font-face {
   font-family: "Mona Sans";
   src: url("assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
