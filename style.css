@@ -569,7 +569,7 @@ body.light .header {
 @media (max-width: 400px) {
   .header-textbox {
     left: 0;
-    text-align: left;
+    text-align: center;
     padding-inline: 0.6rem;
   }
   .header-btns {
