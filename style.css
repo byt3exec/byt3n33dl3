@@ -5,7 +5,7 @@
 .certificate-slider {
   overflow: hidden;
   white-space: nowrap;
-  width: 75%;
+  width: 100%;
   padding: 20px 0;
 }
 
@@ -17,7 +17,7 @@
 .certificate-item {
   display: inline-block;
   width: 200px; /* Adjust width to fit your layout */
-  height: 170px; /* Set a consistent height */
+  height: 160px; /* Set a consistent height */
   margin-right: 20px;
   background-color: rgb(24, 24, 24); /* Background color for contrast */
   border-radius: 10px; /* Smooth rounded corners */
