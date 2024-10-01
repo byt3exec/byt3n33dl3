@@ -19,9 +19,9 @@
   width: 200px; /* Adjust width to fit your layout */
   height: 160px; /* Set a consistent height */
   margin-right: 20px;
-  background-color: rgb(24, 24, 24); /* Background color for contrast */
+  background-color: rgb(9, 9, 9); /* Background color for contrast */
   border-radius: 10px; /* Smooth rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Smooth shadow effect */
+  box-shadow: 0 4px 8px rgba(2, 2, 2, 0.571); /* Smooth shadow effect */
   border: 1px solid #cfcfcf; /* Smooth outline */
   overflow: hidden; /* Ensures the image stays within the container */
   text-align: center;
