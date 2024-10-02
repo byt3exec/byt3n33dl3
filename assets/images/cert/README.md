@@ -1,6 +1,6 @@
 # `CENSORED SINCE YOU HACKERS LOVE TO STEAL PPL CRED AND CHAIN`
 
 <details>
-<summary><h4>Credentials</h4></summary>
-CRTM | CRTP | CRTE | CESP-ADCS | PACES | PACSP | CARTP | CAWASP | PenTest+ | CPT | CRT | eMAPT | eWPTXv2 | eCPPTv2 | eCPTXv2 | eCXD | CCSAS | CBBH | CPTS | CDSA | CWEE | HTB Labs x3 | OSCP | OSDA | KLCP | OSWP | OSEP | OSED | OSWE | OSCE3 | OSMR | OSEE | CEH (Master) | LPT (Master) | CHFI (v11) | CPENT | GPEN | GXPN | CISSP | CCSA | CISAv2 | CISO | CISM | CRISC | CNSS | CPSA
+<summary><h4>Certificates</h4></summary>
+CRTM | CRTP | CRTE | CESP-ADCS | CARTE | ADAC (AE) | PACES | PACSP | CARTP | CAWASP | PenTest+ | CPT | CRT | eMAPT | eWPTXv2 | eCPPTv2 | eCPTXv2 | eCXD | CCSAS | CBBH | CPTS | CDSA | CWEE | OSCP | OSDA | KLCP | OSWP | OSEP | OSED | OSWE | OSCE3 | OSMR | OSEE | CEH (Master) | LPT (Master) | CHFI (v11) | CPENT | GPEN | GXPN | CISSP | CCSA | CISAv2 | CFC | CISO | CISM | CRISC | CNSS | CPSA | MAST
 </details>
