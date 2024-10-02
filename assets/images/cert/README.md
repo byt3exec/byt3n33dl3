@@ -1,5 +1,7 @@
 # `CENSORED SINCE YOU HACKERS LOVE TO STEAL PPL CRED AND CHAIN`
 
+`Ofc I didnt display all of it, to much.`
+
 <h3 class="h3">Security Certifications</h3><br>
 <summary><h4>Cybersecurity Certificates</h4></summary>
 <p class="work-text"><details><br>
