@@ -7,5 +7,5 @@
 | PenTest+ | CPT | CRT | eMAPT | eWPTXv2 | eCPPTv2 | eCPTXv2 | eCXD | CCSAS | CBBH | CPTS | CWEE | OSCP | KLCP 
 | OSWP | OSEP | OSED | OSWE | OSCE3 | OSMR | OSEE | CEH (Master) | LPT (Master) | CHFI (v11) | CPENT | GPEN | 
 GXPN | CISSP | CNSS | CPSA | MAST<br><br>
-<b>Defensive Cert :</b><br>CCSA | CDSA | OSDA | CISO | CISAv2 | CISM | CRISC | Cybersecurity Foundation
+<b>Defensive Cert :</b><br>CCSA | CDSA | OSDA | CISO | CISAv2 | CISM | CRISC | Cybersecurity Foundation | SIT
 </details>
