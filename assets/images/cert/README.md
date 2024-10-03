@@ -5,9 +5,9 @@
 <h3 class="h3">Security Certifications</h3><br>
 <summary><h4>Cybersecurity Certificates</h4></summary>
 <p class="work-text"><details><br>
-<b>Offensive Cert :</b><br>CRTM | CRTP | CRTE | CESP-ADCS | CARTE | ADA (AE) | PACES | PACSP | CARTP | CAWASP 
-| PenTest+ | CPT | CRT | eMAPT | eWPTXv2 | eCPPTv2 | eCPTXv2 | eCXD | CCSAS | CBBH | CPTS | CWEE | OSCP | KLCP 
-| OSWP | OSEP | OSED | OSWE | OSCE3 | OSMR | OSEE | CEH (Master) | LPT (Master) | CHFI (v11) | CPENT | GPEN | 
-GXPN | CISSP | CNSS | CPSA<br><br>
-<b>Defensive Cert :</b><br>CCSA | CDSA | OSDA | CISO | CISAv2 | CISM | CRISC | Cybersecurity Foundation | SIT | MAST
+<b>Defensive Security</b><br>CCSA., CDSA., OSDA., CISO., CISAv2., CISM., CRISC., Cybersecurity Foundation., SIT., MAST.<br><br>
+<b>Offensive Security</b><br>CRTM., CRTP., CRTE., CESP-ADCS., ADA (AE)., PACES., PACSP., CARTE., CARTP., CAWASP., 
+PenTest+., CPT., CRT., eMAPT., eWPTXv2., eCPPTv2., eCPTXv2., eCXD., CCSAS., CBBH., CPTS., CWEE., OSCP., KLCP., 
+OSWP., OSEP., OSED., OSWE., OSCE3., OSMR., OSEE., C|EH (Master)., L|PT (Master)., C|HFI (v11)., C|PENT., E|HE., GPEN., 
+GXPN., CISSP., CNSS., CPSA., PTEC.
 </details>
