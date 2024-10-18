@@ -7,7 +7,8 @@
 <p class="work-text"><details><br>
 <b>Defensive Security</b><br>CCSA., CDSA., OSDA., CISO., CISAv2., CISM., CRISC., Cybersecurity Foundation., SIT., MAST.<br><br>
 <b>Offensive Security</b><br>CRTM., CRTP., CRTE., CESP-ADCS., AADL., ADA (AE)., PACES., PACSP., CARTE., CARTP., CAWASP., CRTO., CRTL., 
-PenTest+., CPT., CRT., eMAPT., eWPTXv2., eCPPTv2., eCPTXv2., eCXD., CCSAS., CBBH., CPTS., CWEE., OSCP., KLCP., OSWP., OSEP., OSED., OSWE., OSWA., OSCE3., OSMR., OSEE., C|EH (Master)., L|PT (Master)., C|HFI (v11)., C|PENT., C|CISO., E|HE., GPEN., 
-GXPN., CISSP., CNSS., CPSA., PTEC., PNPT.
+PenTest+., CPT., CRT., eMAPT., eWPTXv2., eCPPTv2., eCPTXv2., eCXD., CCSAS., CBBH., CPTS., CWEE., OSCP., KLCP., 
+OSWP., OSEP., OSED., OSWE., OSWA., OSCE3., OSMR., OSEE., C|EH (Master)., L|PT (Master)., C|HFI (v11)., C|PENT., C|CISO., E|HE., GPEN., 
+GXPN., CISSP., CNSS., CPSA., PTEC., PJPT., PNPT.
 </p><br>
 </details>
