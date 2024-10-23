@@ -523,12 +523,12 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/webs.png");
+    url("assets/images/kali-wpp.png");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/webs.png");
+    url("assets/images/kali-wpp.png");
 }
 
 .header-textbox {
