@@ -523,7 +523,7 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/kali-wpp.png");
+    url("assets/images/kali-wwp.png");
 }
 
 body.light .header {
